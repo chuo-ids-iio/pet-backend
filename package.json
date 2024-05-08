@@ -14,12 +14,14 @@
     "lint:check": "biome lint src",
     "migrate:dev": "wrangler d1 migrations apply planet-main --local",
     "migrate:prod": "wrangler d1 migrations apply planet-main --env production",
-    "gen:client": "prisma generate"
+    "gen:client": "prisma generate",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
     "@cloudflare/vitest-pool-workers": "^0.1.0",
     "@cloudflare/workers-types": "^4.20240423.0",
+    "husky": "^9.0.11",
     "prisma-markdown": "^1.0.9",
     "typescript": "^5.0.4",
     "vitest": "1.3.0",
