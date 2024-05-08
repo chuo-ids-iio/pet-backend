@@ -77,7 +77,7 @@ jobs:
 
   db-deploy:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: D1 Deploy
     steps:
       - uses: actions/checkout@v4
       - name: Install Node.js

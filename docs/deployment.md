@@ -8,8 +8,8 @@ Actionsに渡すSecretsを変えれば各々のデプロイ環境を作ること
 CloudflareにAPIトークンを取りに行く
 1. [CloudflareのAPIキーを発行する画面](https://dash.cloudflare.com/profile/api-tokens)に行く
   ![step1](https://github.com/chuo-u-ids-iio/pet-backend/assets/49401718/443a931b-813a-4c23-838f-ec2f62546b1e)
-2. 以下の通り項目を設定（Workersのテンプレート＋Workers AIへのアクセス許可）
-	![step2](https://github.com/chuo-u-ids-iio/pet-backend/assets/49401718/0614cc83-4e58-4d4a-8e1a-9f7302ddca75)
+2. 以下の通り項目を設定（Workersのテンプレート＋Workers AIおよびD1へのEDIT許可）
+  ![step2](https://github.com/chuo-u-ids-iio/pet-backend/assets/49401718/ea1089c3-f93f-4626-996b-0c75480295db)
 3. APIキーをコピーする
   ![step3](https://github.com/chuo-u-ids-iio/pet-backend/assets/49401718/f3ccc556-bbad-434b-926c-ac0dbf5e7e96)
 4. レポジトリ設定画面の Security -> Secrets and Variables -> Repository secretsに追加
