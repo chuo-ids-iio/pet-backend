@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run Prettier
+      - name: Run Formatter
         run: pnpm format:check
 
   lint:
@@ -74,5 +74,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run Prettier
+      - name: Run Linter
         run: pnpm lint:check
