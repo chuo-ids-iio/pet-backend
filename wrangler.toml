@@ -5,10 +5,11 @@ compatibility_date = "2024-05-02"
 compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
-binding = "DB"
+binding = "PET_D1"
 database_name = "PET_D1"
-database_id = "5c996bae-cf32-4a2e-bfba-ec39e0758e00"
+database_id = "18f54084-c1f9-465a-9a05-83380031e400"
 
 [[kv_namespaces]]
 binding = "PET_STATUS"
-id = "69a5ab87ae79442aa58569a63d4c327a"
+id = "774955a72b4245959c495e9801c4b19b"
+

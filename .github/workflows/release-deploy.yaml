@@ -73,6 +73,6 @@ jobs:
           secrets: |
             TOKEN_KEY
           postCommands: |
-            wrangler d1 migrations apply PET_D1 --remote
+            wrangler d1 migrations apply PET_D1
         env:
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
