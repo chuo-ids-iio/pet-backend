@@ -1,7 +1,8 @@
 import { type Context, Hono, type Next } from "hono";
 import { jwt } from "hono/jwt";
 import type { Env } from "./bindings";
-import projects from "./projects";
+import projects from "./routes/projects";
+import users from "./routes/users";
 
 const app = new Hono<{ Bindings: Env }>();
 
@@ -25,5 +26,6 @@ app.options("*", (c) => {
 });
 
 app.get("/", (c) => c.json({ message: "Hello, World!" }));
+app.route("/accounts", users);
 app.route("/projects", projects);
 export default app;
