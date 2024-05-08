@@ -17,6 +17,7 @@ CloudflareにAPIトークンを取りに行く
 5. その他、以下の環境変数を同様に設定する
 	* CLOUDFLARE_ACCOUNT_ID: ([ココ](https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/)から検索可能)
 	* TOKEN_KEY: ランダムな文字列でよい。認証キーの作成等に使用。
+	* SALT: パスワードのハッシュに使うソルト文字列
 
 ## Actionsを回す
 release-deploy.yaml を回す。
