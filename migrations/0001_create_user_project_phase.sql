@@ -11,7 +11,6 @@ CREATE TABLE "User" (
 -- CreateTable
 CREATE TABLE "Project" (
     "id" TEXT NOT NULL PRIMARY KEY,
-    "name" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "description" TEXT,
@@ -33,6 +32,3 @@ CREATE TABLE "Phase" (
 
 -- CreateIndex
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
-
--- CreateIndex
-CREATE UNIQUE INDEX "Project_name_key" ON "Project"("name");

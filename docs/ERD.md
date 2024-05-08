@@ -16,7 +16,6 @@ erDiagram
 }
 "Project" {
   String id PK
-  String name UK
   String userId FK
   String title
   String description "nullable"
@@ -49,7 +48,6 @@ erDiagram
 
 **Properties**
   - `id`: 
-  - `name`: 
   - `userId`: 
   - `title`: 
   - `description`: 

@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "PET_D1"
 database_name = "PET_D1"
-database_id = "cebde0c3-5822-4c3b-b2db-0eb3df2f8a40"
+database_id = "2281d24c-beac-4ab7-bdf5-9e29af001974"
 
 [[kv_namespaces]]
 binding = "PET_STATUS"
