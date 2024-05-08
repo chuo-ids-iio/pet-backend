@@ -1,3 +1,6 @@
+[![CI](https://github.com/chuo-u-ids-iio/pet-backend/actions/workflows/ci.yaml/badge.svg)](https://github.com/chuo-u-ids-iio/pet-backend/actions/workflows/ci.yaml) [![Release Production](https://github.com/chuo-u-ids-iio/pet-backend/actions/workflows/release-deploy.yaml/badge.svg)](https://github.com/chuo-u-ids-iio/pet-backend/actions/workflows/release-deploy.yaml)
+
+
 # PETバックエンド部分
 
 ## 構成
