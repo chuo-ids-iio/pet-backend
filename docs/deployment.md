@@ -19,5 +19,5 @@ CloudflareにAPIトークンを取りに行く
 	* TOKEN_KEY: ランダムな文字列でよい。認証キーの作成等に使用。
 
 ## Actionsを回す
-
-
+release-deploy.yaml を回す。
+![DB](https://github.com/chuo-u-ids-iio/pet-backend/assets/49401718/25eb9376-1453-4c37-b051-a2b952612ecf)
