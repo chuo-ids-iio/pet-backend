@@ -18,6 +18,8 @@ erDiagram
   String id PK
   String name UK
   String userId FK
+  String title
+  String description "nullable"
   DateTime created_at
   DateTime updated_at
 }
@@ -49,6 +51,8 @@ erDiagram
   - `id`: 
   - `name`: 
   - `userId`: 
+  - `title`: 
+  - `description`: 
   - `created_at`: 
   - `updated_at`: 
 
