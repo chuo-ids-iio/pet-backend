@@ -40,7 +40,18 @@ projects.post("/new", async (c) => {
 			return new Response("Unauthorized", { status: 401 });
 		}
 
-		const { name, description } = await c.json();
+		const { title, description } = await c.req.json();
+		const project = await prisma.project.create({
+			data: {
+				title,
+				description,
+				userId: user,
+			},
+		});
+
+		return c.json({
+			project,
+		});
 	} catch (e) {
 		return new Response("Unauthorized", { status: 401 });
 	}
