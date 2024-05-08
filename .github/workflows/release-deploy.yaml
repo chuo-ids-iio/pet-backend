@@ -106,8 +106,11 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+      - name: Create Prisma Client
+        run: pnpm gen:client
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: d1 migrations apply PET_D1
+
