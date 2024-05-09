@@ -166,10 +166,6 @@ projects.post("/:id/new", async (c) => {
       question: Question
       type: string
     }
-    // format check
-    if (question.title === "" || question.content.length <= 1) {
-      return new Response("Bad Request", { status: 400 })
-    }
 
     const project = await prisma.phase.create({
       data: {
@@ -180,8 +176,7 @@ projects.post("/:id/new", async (c) => {
     })
 
     return c.json({
-      id,
-      t: typeof question,
+      project,
     })
   } catch (e) {
     return new Response("Unauthorized", { status: 401 })
