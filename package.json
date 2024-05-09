@@ -15,6 +15,7 @@
     "migrate:dev": "wrangler d1 migrations apply planet-main --local",
     "migrate:prod": "wrangler d1 migrations apply planet-main --env production",
     "gen:client": "prisma generate",
+    "type-check": "tsc --noEmit",
     "prepare": "husky"
   },
   "devDependencies": {
