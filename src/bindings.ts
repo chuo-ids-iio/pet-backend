@@ -1,6 +1,6 @@
 export type Env = {
-	PET_D1: D1Database;
-	PET_STATUS: KVNamespace;
-	TOKEN_KEY: string;
-	SALT: string;
-};
+  PET_D1: D1Database
+  PET_STATUS: KVNamespace
+  TOKEN_KEY: string
+  SALT: string
+}
