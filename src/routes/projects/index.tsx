@@ -8,6 +8,7 @@ const projects = new Hono<{ Bindings: Env }>();
 
 projects.get("/", async (c) => {
 	try {
+		const prisma = new PrismaClient({ adapter: new PrismaD1(c.env.PET_D1) });
 		const projects = await prisma.project.findMany();
 		return c.json({
 			projects,
