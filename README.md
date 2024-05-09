@@ -14,6 +14,7 @@ DBにはCloudflare D1を採用する。中身的にはSQLite。D1の操作はPri
 
 ### 別ファイルになっている資料
 - DB設計 [docs/ERD.md](docs/ERD.md)
+- API Spec [docs/openapi.json](docs/openapi.json)
 
 ## デプロイ
 デプロイについては [docs/deployment.md](docs/deployment.md) を参照。原則CIツールが自動で流し込みます。
