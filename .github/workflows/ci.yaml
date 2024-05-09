@@ -109,5 +109,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Create Prisma Client
+        run: pnpm gen:client
+
       - name: Run Type Checker
         run: pnpm type-check
