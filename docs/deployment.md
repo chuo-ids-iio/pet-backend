@@ -15,9 +15,9 @@ CloudflareにAPIトークンを取りに行く
 4. レポジトリ設定画面の Security -> Secrets and Variables -> Repository secretsに追加
   ![step4](https://github.com/chuo-u-ids-iio/pet-backend/assets/49401718/d6e0ead5-be75-4d01-87ec-f8b569ca7f64)
 5. その他、以下の環境変数を同様に設定する
-	* CLOUDFLARE_ACCOUNT_ID: ([ココ](https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/)から検索可能)
-	* TOKEN_KEY: ランダムな文字列でよい。認証キーの作成等に使用。
-	* SALT: パスワードのハッシュに使うソルト文字列
+  * CLOUDFLARE_ACCOUNT_ID: ([ココ](https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/)から検索可能)
+  * TOKEN_KEY: ランダムな文字列でよい。認証キーの作成等に使用。
+  * SALT: パスワードのハッシュに使うソルト文字列
 
 ## Actionsを回す
 release-deploy.yaml を回す。
