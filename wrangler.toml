@@ -6,10 +6,10 @@ compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
 binding = "PET_D1"
-database_name = "PET_D1"
-database_id = "2281d24c-beac-4ab7-bdf5-9e29af001974"
+database_name = "pet-d1"
+database_id = "7ad343d3-ba12-4cc1-abb3-8debcdc9ab39"
 
 [[kv_namespaces]]
 binding = "PET_STATUS"
-id = "774955a72b4245959c495e9801c4b19b"
+id = "d5f38cf3b09b49f498829445e69462cf"
 
