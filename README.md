@@ -15,6 +15,7 @@ DBにはCloudflare D1を採用する。中身的にはSQLite。D1の操作はPri
 ### 別ファイルになっている資料
 - DB設計 [docs/ERD.md](docs/ERD.md)
 - API Spec [docs/openapi.json](docs/openapi.json)
+	- [こちら](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/chuo-u-ids-iio/pet-backend/main/docs/openapi.json)はGUIになっています
 
 ## デプロイ
 デプロイについては [docs/deployment.md](docs/deployment.md) を参照。原則CIツールが自動で流し込みます。
