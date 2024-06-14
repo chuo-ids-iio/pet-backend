@@ -74,8 +74,10 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           secrets: |
             TOKEN_KEY
+            SALT
         env:
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+          SALT: ${{ secrets.SALT }}
 
   db-deploy:
     runs-on: ubuntu-latest
